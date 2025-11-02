@@ -1,0 +1,18 @@
+<svg width="40" height="40" viewBox="0 0 110 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the gradient -->
+  <defs>
+    <linearGradient id="lm-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4FACFE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00F2FE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Apply the gradient fill to the letters -->
+  <g fill="url(#lm-gradient)">
+    <!-- Path for the letter 'L' -->
+    <path d="M10 10 H 25 V 75 H 40 V 90 H 10 V 10 Z" />
+    
+    <!-- Path for the letter 'M' -->
+    <path d="M50 90 V 10 H 65 L 75 40 L 85 10 H 100 V 90 H 85 V 35 L 75 65 L 65 35 V 90 H 50 Z" />
+  </g>
+</svg>
